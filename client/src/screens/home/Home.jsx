@@ -19,7 +19,10 @@ function Home(props) {
         <h4>About Me</h4>
         <p>I was born and raised in a small neighborhood in Bogota, Colombia;  I consider myself a hard worker and passionate person. I am bilingual, Spanish being my first language. My background in overcoming difficult situations and learning new cultures combined with my passion for technology and Software Engineering make me unique to accomplish anything I set my mind to. My experience as group leader and team player are a big part of who I am  as a Junior Software Engineer. 
         </p>
-      </div>
+        </div>
+        <div className='link to portfolio'>
+
+        </div>
         <div>
         </div>
         <Footer />

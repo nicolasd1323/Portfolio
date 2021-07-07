@@ -1,0 +1,27 @@
+.detail{
+  display: flex;
+  height: 66vh;
+  justify-content: center;
+  /* margin-left: 20px; */
+  flex-flow: column;
+  background: url(https://images.unsplash.com/photo-1577102571847-c6f7ebcfd568?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxuYXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  color:white;
+}
+.image {
+  margin: 10px 10px 10px 20px;
+}
+.image-piecess{
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+}
+
+.image-web{
+  width: 90px;
+  height: 90px;
+  border-radius: 80%;
+}
+.description{
+margin: 20px 100px 20px 100px;  color: white;
+}

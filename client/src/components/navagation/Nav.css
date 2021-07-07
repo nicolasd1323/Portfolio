@@ -1,11 +1,11 @@
 nav {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  background: rgb(9, 203, 246);
+  background: rgb(240, 244, 245);
   color: rgb(2, 2, 2);
 }
 .nav-container {
-  width: 100vw;
+  width: 98vw;
   height: 4vh;
   min-height: 125px;
   display: flex;
