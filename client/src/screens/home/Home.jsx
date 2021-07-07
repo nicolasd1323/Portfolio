@@ -9,9 +9,9 @@ function Home(props) {
       <Nav />
       <div className="home-all">
         <div className="intro">
-          <h1>Hello, I am Nicolas,</h1>
-          <h1>Hola, yo soy Nicolas,</h1>
-          <h1>Salut, je suis Nicolas.</h1>
+          <h1 className="nico">Hello, I am Nicolas,</h1>
+          <h1 className="nico">Hola, yo soy Nicolas,</h1>
+          <h1 className="nico">Salut, je suis Nicolas.</h1>
         </div>
         <div>
           <h2>Junior Software Engineer</h2>
