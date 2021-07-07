@@ -3,13 +3,32 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-content: space-around;
-  height: 66vh;
+  height: 72vh;
   background: url(https://images.unsplash.com/photo-1577102571847-c6f7ebcfd568?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxuYXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-background-size: cover;
-}
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 4px 2px 4px 2px;
 
+}
+h1{
+  font-family: "Kaushan Script", cursive;
+
+}
 .image-pieces{
   width: 250px;
   height: 250px;
   border-radius: 80%;
+}
+
+.name-piece{
+  background-color: rgb(246, 233, 233);
+  border: 1px solid rgb(17, 16, 17);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px 10px;
+  border-radius: 50%;
 }

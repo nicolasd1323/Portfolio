@@ -1,15 +1,20 @@
 .home-all {
-  background: url(https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgwfHxuYXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-  background-size: cover;}
-
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.58),
+    rgba(255, 255, 255, 0.58)
+  ),
+  url(https://images.unsplash.com/photo-1570700300678-0bbe8970cfaf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkxfHxuYXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  margin: 10px 10px 10px 10px;
+  box-shadow: 4px 2px 4px 2px;
+}
 .intro {
-  border: 5px solid rgb(247, 239, 239);
   padding: 30px;
-  background: url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc2fHxuYXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-  background-size: cover;
-  color: rgb(245, 243, 243);
+  /* background: url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc2fHxuYXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60); */
+  /* background-size: cover; */
+  color: black;
   font-size: 15px;
-  margin: 15px auto 15px auto;
+  margin: 15px 500px 15px 500px;
 }
 .about-me {
   background: url(https://images.unsplash.com/photo-1592842825197-89dd8efba31f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc3fHxuYXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
@@ -22,4 +27,19 @@
   justify-content: space-between;
   font-size: 25px;
   height: 40vh;
+}
+.link-to-portfolio{
+  color: black;
+}
+.portfolio-link-b{
+  background-color: rgb(246, 233, 233);
+  border: 1px solid rgb(17, 16, 17);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px 10px;
+  border-radius: 50%;
 }

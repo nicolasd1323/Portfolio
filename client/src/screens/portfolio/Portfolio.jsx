@@ -9,6 +9,7 @@ function Portfolio(props) {
     <div>
       <Nav />
       <div>
+        <h1>Personal Projects</h1>
         {props.pieces && (
           <div className="portfolio-pieces">
             {props.pieces.map((item) => (
