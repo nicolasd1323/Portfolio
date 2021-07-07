@@ -28,13 +28,14 @@ function App() {
         <Route exact path="/" />
         <Route path="/about-me" />
 
+        <Route path="/portfolio-products/:name">
+          <Details pieces={pieces} />
+        </Route>
+       
         <Route path="/portfolio-products">
           <Portfolio pieces={pieces} />
         </Route>
 
-        <Route path="/portfolio-products/:name">
-          <Details pieces={pieces} />
-        </Route>
 
         <Route path="/contact">
           <ContactMe />

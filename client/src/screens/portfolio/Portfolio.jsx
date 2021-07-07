@@ -8,7 +8,7 @@ function Portfolio(props) {
         {props.pieces && (
           <div className="portfolio-pieces">
             {props.pieces.map((item) => (
-              <Link to={`/portfolio-product/${item.fields.name}`}>
+              <Link to={`/portfolio-products/${item.fields.name}`}>
                 <div className="name-piece">
                   <p>{item.fields.name}</p>
                 </div>
