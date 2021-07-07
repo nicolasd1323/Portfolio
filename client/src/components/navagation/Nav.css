@@ -5,10 +5,10 @@ nav {
   color: rgb(2, 2, 2);
 }
 .nav-container {
-  width: 98vw;
+  display: flex;
+  flex: 1;
   height: 4vh;
   min-height: 125px;
-  display: flex;
   flex-direction: row;
   border-bottom: 1px solid black;
   padding-top: 10px;
@@ -30,4 +30,28 @@ nav {
   align-content: center;
   color: antiquewhite;
 
+}
+@media screen and (max-width: 970px) { 
+
+
+  .nav-container {
+    flex-direction: column;
+    align-content: center;
+    border-bottom: none;
+    padding: 0 0 0 0;
+    height: fit-content;
+
+  }
+  .left-container {
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .right-container {
+    justify-content: center;
+    padding-right: 0;
+    padding: 0px 0px 0 0px;
+    /* align-items: center; */
+
+  }
 }

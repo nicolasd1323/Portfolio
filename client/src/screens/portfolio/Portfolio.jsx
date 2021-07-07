@@ -8,7 +8,7 @@ function Portfolio(props) {
   return (
     <div>
       <Nav />
-      <div>
+      <div className='div'>
         <h1>Personal Projects</h1>
         {props.pieces && (
           <div className="portfolio-pieces">
