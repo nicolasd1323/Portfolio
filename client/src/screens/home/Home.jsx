@@ -1,22 +1,27 @@
 import React from "react";
 import Nav from "../../components/navagation/Nav";
 import Footer from "../../components/footer/Footer";
+import "./Home.css";
 function Home(props) {
   return (
     <div>
       <Nav />
-      <div>
+      <div className='home-all'>
+      <div className="intro">
         <h1>Hello, I am Nicolas,</h1>
-        <h1>Hola, yo soy Nicolas</h1>
-        <h1>salut, je suis Nicolas</h1>
-      </div>
-      <div>
+        <h1>Hola, yo soy Nicolas,</h1>
+        <h1>Salut, je suis Nicolas.</h1>
+        </div>
+        <div>
+          <h2>Junior Software Engineer</h2>
+          </div>
+      <div className='about-me'>
         <h4>About Me</h4>
         <p>I was born and raised in a small neighborhood in Bogota, Colombia;  I consider myself a hard worker and passionate person. I am bilingual, Spanish being my first language. My background in overcoming difficult situations and learning new cultures combined with my passion for technology and Software Engineering make me unique to accomplish anything I set my mind to. My experience as group leader and team player are a big part of who I am  as a Junior Software Engineer. 
         </p>
-        <p>Want to know more about my work? Check my projects... </p>
       </div>
-      <div>
+        <div>
+        </div>
         <Footer />
       </div>
     </div>

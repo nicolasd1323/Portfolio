@@ -1,0 +1,15 @@
+.portfolio-pieces{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  height: 66vh;
+  background: url(https://images.unsplash.com/photo-1520632461690-67205b04e73d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+background-size: cover;
+}
+
+.image-pieces{
+  width: 250px;
+  height: 250px;
+  border-radius: 80%;
+}
