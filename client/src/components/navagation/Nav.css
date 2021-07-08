@@ -44,14 +44,16 @@ nav {
   }
   .left-container {
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   }
 
   .right-container {
     justify-content: center;
     padding-right: 0;
     padding: 0px 0px 0 0px;
-    /* align-items: center; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   }
 }

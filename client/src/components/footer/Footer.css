@@ -12,3 +12,13 @@
   height: 60px;
   width: 60px;
 margin: 10px;}
+@media screen and (max-width: 970px) { 
+
+  .foot{
+    flex-direction: column;
+    align-content: center;
+    border-bottom: none;
+    padding: 0 0 0 0;
+    height: fit-content;
+  }
+}
